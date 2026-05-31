@@ -8,7 +8,7 @@ N_TONES = 12
 N_TYPES = 12
 CACHE_DIR = os.path.join(os.path.expanduser("~"), ".cache", "autoresearch_hmm")
 DATA_FILE = os.path.join(CACHE_DIR, "data.pt")
-MAX_SONGS = 500  # Limit to 500 songs for fast iterations
+MAX_SONGS = 10000  # Limit to 500 songs for fast iterations
 
 def load_ntc_songs(data_dir: Path):
     songs = []
