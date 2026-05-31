@@ -10,10 +10,10 @@ import sys
 # ---------------------------------------------------------------------------
 
 ON_PROB = 0.90           # Initial emission prob for chord tones
-PRIOR_STRENGTH = 0.01    # Dirichlet prior for transitions
-MAX_SELF_LOOP = 0.40     # Cap for chord self-repetitions
+PRIOR_STRENGTH = 0.50    # Dirichlet prior for transitions
+MAX_SELF_LOOP = 0.20     # Cap for chord self-repetitions
 EPS = 1e-8
-TIME_BUDGET = 300        # 5 minutes fixed budget
+TIME_BUDGET = 20        # 5 minutes fixed budget
 
 # ---------------------------------------------------------------------------
 # Setup
